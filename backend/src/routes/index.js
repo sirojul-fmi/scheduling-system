@@ -2,18 +2,18 @@ const express = require('express');
 const router = express.Router();
 const { body, param } = require('express-validator');
 
-const authGuard = require('./middleware/auth');
-const roleGuard = require('./middleware/roleGuard');
+const authGuard = require('../middleware/auth');
+const roleGuard = require('../middleware/roleGuard');
 
-const authCtrl = require('./controllers/authController');
-const teacherCtrl = require('./controllers/teacherController');
-const subjectCtrl = require('./controllers/subjectController');
-const classCtrl = require('./controllers/classController');
-const academicYearCtrl = require('./controllers/academicYearController');
-const timeSlotCtrl = require('./controllers/timeSlotController');
-const assignmentCtrl = require('./controllers/assignmentController');
-const scheduleCtrl = require('./controllers/scheduleController');
-const userCtrl = require('./controllers/userController');
+const authCtrl = require('../controllers/authController');
+const teacherCtrl = require('../controllers/teacherController');
+const subjectCtrl = require('../controllers/subjectController');
+const classCtrl = require('../controllers/classController');
+const academicYearCtrl = require('../controllers/academicYearController');
+const timeSlotCtrl = require('../controllers/timeSlotController');
+const assignmentCtrl = require('../controllers/assignmentController');
+const scheduleCtrl = require('../controllers/scheduleController');
+const userCtrl = require('../controllers/userController');
 
 // ===================== AUTH =====================
 router.post('/auth/login', [

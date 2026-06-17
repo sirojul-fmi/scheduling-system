@@ -240,4 +240,4 @@ scheduling-system/
 ## 📄 Lisensi
 
 Dokumen penelitian — tidak untuk dipublikasikan.  
-© 2026 MIS At-Taqwa / Peneliti S1 Teknik Informatika
+© 2026 Unhasy / Peneliti S1 Teknik Informatika

@@ -1,7 +1,7 @@
 # Sistem Informasi Penjadwalan MIS At-Taqwa
 ### Berbasis Algoritma Genetika — Versi 1.0 | Maret 2026
 
-> **Skripsi S1 Teknik Informatika** — Research Artifact
+> **Skripsi S1 Teknik Informatika** — Universitas Hasyim Asy'ari Tebuireng Jombang
 
 ---
 
